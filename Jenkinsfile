@@ -10,7 +10,7 @@ pipeline {
 
     stage('Stage 2') {
       parallel {
-        stage('Stage 2') {
+        stage('Stage 2 - parallel step') {
           steps {
             echo 'Stage 2 Step 1'
             echo 'Stage 2 Step 2'
