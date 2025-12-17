@@ -2,8 +2,8 @@
 # for more info about CODEOWNERS file
 
 # This lists cover the "core" components of vLLM that require careful review
-/vllm/attention/backends/abstract.py @WoosukKwon @zhuohan123 @youkaichao @alexm-redhat @comaniac @njhill #This is an inline comment.
-/vllm/core @zhuohan123 @youkaichao @alexm-redhat @comaniac @njhill
+/vllm/attention/backends/abstract.py @WoosukKwon @zhuohan123 @youkaichao #This is an inline comment.
+/vllm/core @zhuohan123 @youkaichao @oscars-org/test-team 
 
 # CPU
 /vllm/v1/worker/^cpu @bigPYJ1151 #This is an inline comment.
@@ -14,7 +14,5 @@
 
 # Intel GPU
 /vllm/v1/worker/^xpu @jikunshang
-/vllm/platforms/xpu.py @jikunshang
-/docker/Dockerfile.xpu @jikunshang
 
 /pages/users/[userId].js @oscars-org/test-team 
