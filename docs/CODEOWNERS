@@ -17,4 +17,4 @@
 /vllm/platforms/xpu.py @jikunshang
 /docker/Dockerfile.xpu @jikunshang
 
-/pages/users/[userId].js @test-team 
+/pages/users/[userId].js @oscars-org/test-team 
